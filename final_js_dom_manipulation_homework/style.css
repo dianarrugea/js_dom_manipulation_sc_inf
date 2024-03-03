@@ -1,0 +1,109 @@
+body {
+  width: 80%;
+  margin: auto;
+}
+
+#greetingMessage {
+  margin: auto;
+  width: 50%;
+  display: block;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  border: 1px solid black;
+  height: auto;
+  display: flex;
+}
+
+.contact-form {
+  width: 49%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  height: 450px;
+}
+
+input[type="text"], textarea {
+  width: 250px; 
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="radio"]{
+  float: right;
+}
+
+.float-right{
+  float: right;
+  margin-right: 20px;
+  margin: auto;
+}
+.side-image{
+  height: auto;
+  width: 50%;
+  float: right;
+  margin: auto;
+  border-radius: 8px
+}
+
+.logo {
+  width: 80%;
+  height: 100%;
+  float: center;
+}
+#generate {
+  width: auto;
+  float: right;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#gender-area{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.alert {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color:  #ddffdd;
+  color: darkgreen;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: darkgreen;
+  font-weight: bold;
+  float: right;
+  font-size: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
